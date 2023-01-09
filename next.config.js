@@ -5,8 +5,13 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['www.twitter.com','scontent.fkut1-1.fna.fbcdn.net']
-  }
-}
+    domains: [
+      "www.twitter.com",
+      "scontent.fkut1-1.fna.fbcdn.net",
+      "cdn.sanity.io",
+      
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
